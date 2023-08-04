@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+  position: relative;
+}
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?wfzu27');
+  src: url('fonts/icomoon.eot?wfzu27#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wfzu27') format('truetype'),
+    url('fonts/icomoon.woff?wfzu27') format('woff'),
+    url('fonts/icomoon.svg?wfzu27#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+.box {
+  background-color: white;
+  /* transform: rotate(-20deg);*/
+  transform-origin: left top; 
+  transition: all 1s;
+}
+.content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 40px;
+  width: 1000px;
+  margin: 0 auto;
+}
+.image {
+  width: 1000px;
+  height: 600px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.controller {
+  z-index: 1;
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(196, 120, 133);
+  border-radius: 50%;
+  transform-origin: center;
+  transition: all 1s;
+}
+button {
+  cursor: pointer;
+  font-family: 'icomoon';
+  border-width: 0;
+  background-color: transparent;
+  font-size: 30px;
+  color: white;
+}
+#cancel {
+  position: absolute;
+  top: 125px;
+  left: 45px;
+}
+#table {
+  position: absolute;
+  top: 125px;
+  left: 125px;
+}
+a {
+  text-decoration: none;
+}
+nav {
+  font-family: 'icomoon';
+  position: fixed;
+  left: -200px;
+  font-size: 26px;
+  font-weight: 700;
+}
+#home {
+  top: 600px;
+  transition: all 1s;
+}
+#about {
+  top: 650px;
+  transition: all 1s;
+}
+#contact {
+  top: 700px;
+  transition: all 1s;
+}
+a {
+  color: black;
+  transition: ease 0.5s;
+}
+a:hover {
+  color: rgb(227, 21, 55);
+}

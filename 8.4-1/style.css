@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(19, 91, 179, 0.566);
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('fonts/icomoon.eot?nouwu7');
+  src: url('fonts/icomoon.eot?nouwu7#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?nouwu7') format('truetype'),
+    url('fonts/icomoon.woff?nouwu7') format('woff'),
+    url('fonts/icomoon.svg?nouwu7#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+#bar {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  overflow: hidden;
+  margin: 400px auto;
+  transition: all 1s;
+}
+
+#input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 50px;
+  border-width: 0;
+  font-size: 25px;
+}
+
+#search-active {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  font-family: 'icomoon';
+  font-size: 25px;
+  border-width: 0;
+  cursor: pointer;
+}
+
+#search-calm {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50px;
+  height: 50px;
+  font-family: 'icomoon';
+  font-size: 25px;
+  border-width: 0;
+  cursor: pointer;
+}

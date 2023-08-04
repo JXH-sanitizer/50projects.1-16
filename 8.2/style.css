@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li {
+  list-style: none;
+  float: left;
+  transition: all 0.7s ease-in;
+}
+.empty {
+  clear: both;
+}
+.steps {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 26px;
+  font-size: 16px;
+}
+.bar {
+  width: 80px;
+  height: 0;
+  border: 2px solid black;
+  margin-top: 13px;
+}
+.active {
+  border-color: blue;
+}
+button {
+  border-radius: 15px;
+  width: 80px;
+  height: 40px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.box {
+  width: 360px;
+  text-align: center;
+}
