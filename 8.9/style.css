@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(75, 47, 135, 0.7)
+}
+.box {
+  width: 800px;
+  margin: 400px auto;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.box h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+  font-size: 24px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.box p {
+  padding-bottom: 40px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.box button {
+  background-color: plum;
+  border: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 20px 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+button:active {
+  transform: scale(0.98);
+}

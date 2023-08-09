@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: blueviolet;
+}
+div {
+  width: 1200px;
+  margin: 100px auto;
+  text-align: center;
+}
+button {
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 90px;
+  background-color: rgba(0,0,0,0.5);
+  border: 0;
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 15px;
+}
+button:hover {
+  background-color: rgba(0,0,0,0.3);
+}

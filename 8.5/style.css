@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+  background-color: bisque;
+  text-align: center;
+  overflow-x: hidden;
+}
+.box {
+  width: 400px;
+  height: 200px;
+  background-color: skyblue;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 200px;
+  margin: 0 auto;
+  margin-top: 22px;
+}
+h2 {
+  color: white;
+  font-size: 48px;
+}
+.box:nth-of-type(even) {
+  transform: translateX(1200px);
+  transition: all 1s;
+}
+.box:nth-of-type(odd) {
+  transform: translateX(-1200px);
+  transition: all 1s;
+}
+.box.active {
+  transform: translateX(0);
+}

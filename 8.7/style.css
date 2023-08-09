@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: skyblue;
+}
+
+ul li {
+  list-style: none;
+}
+
+.box {
+  width: 500px;
+  margin: 200px auto;
+  text-align: center;
+  background-color: rgb(115, 104, 186);
+  border-radius: 10px;
+}
+
+.box h3 {
+  font-size: 40px;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 50px;
+}
+
+.box ul {
+  padding-top: 40px;
+}
+
+.box ul li {
+  position: relative;
+  padding-bottom: 80px;
+  text-align: left;
+  align-items: center;
+}
+
+.box ul li label {
+  position: absolute;
+  bottom: 90px;
+  height: 20px;
+  width: 200px;
+  /* background-color: aqua; */
+  color: aliceblue;
+  font-size: 18px;
+  margin-left: 88px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.box ul li label span {
+  transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.box ul li input {
+  display: block;
+  margin: 0 auto;
+  height: 30px;
+  line-height: 30px;
+  width: 325px;
+  color: white;
+  border-width: 0;
+  border-bottom: 2px solid white;
+  background-color: transparent;
+  outline: none;
+}
+
+.box button {
+  width: 325px;
+  height: 50px;
+  background-color: rgba(145, 213, 240, 0.612);
+  font-size: 16px;
+  line-height: 50px;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.box p {
+  color: white;
+  padding-bottom: 15px;
+  text-align: left;
+  padding-left: 88px;
+}
+
+.box p a {
+  text-decoration: none;
+  color: skyblue;
+}
