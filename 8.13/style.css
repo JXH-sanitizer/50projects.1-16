@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-color: #8e44ad;
+}
+.box {
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+.box .sect {
+  width: 220px;
+  height: 200px;
+  text-align: center;
+}
+.box .sect .image {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+}
+.box .sect .image img {
+  width: 100%;
+  height: 100%;
+}
+.box .sect h2 {
+  font-size: 42px;
+  color: white;
+}
+.box .sect p {
+  font-size: 20px;
+  color: white;
+}

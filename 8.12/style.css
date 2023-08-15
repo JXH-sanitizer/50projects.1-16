@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+}
+
+.white {
+  height: 50vh;
+  background-color: #eafbff;
+}
+
+.blue {
+  height: 50vh;
+  background-color: #5290f9;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 387px;
+  height: 80px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  padding-left: 33px;
+  /* padding-right: 24px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
+  transition: all 2s;
+  overflow: hidden;
+}
+.box ul {
+  width: 387px;
+  height: 30px;
+  transition: all 2s;
+}
+.box ul li {
+  float: left;
+  list-style: none;
+  margin-right: 23px;
+  opacity: 1;
+  transition: all 2s;
+}
+.box button {
+  position: absolute;
+  top: 30px;
+  right: 18px;
+  width: 22px;
+  height: 22px;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+.box button .line1,
+.box button .line2 {
+  width: 1px;
+  height: 25px;
+  background-color: #5290f9
+}
+.box button .line1 {
+  transform: translate(10px) rotate(45deg);
+  transition: all 2s;
+}
+/* .box button .line1 {
+  transform: translateY(-5px) rotate(90deg);
+} */
+.box button .line2 {
+  transform: translate(10px) translateY(-25px) rotate(-45deg); 
+  transition: all 2s;
+}
+/* .box button .line2 {
+  transform: translateY(-20px) rotate(90deg)
+} */
+.box ul.ul-close {
+  transform: translate(100px);
+}
+.box ul li.li-close {
+  transform: rotateY(720deg);
+  opacity: 0;
+}

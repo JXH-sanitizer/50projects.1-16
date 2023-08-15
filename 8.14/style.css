@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3494e4;
+}
+
+.box {
+  width: 770px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.box h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: 500;
+}
+.box h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.box .bottle {
+  position: relative;
+  width: 225px;
+  height: 440px;
+  border: 4px solid #144fc6;
+  background-color: white;
+  /* 6ab3f8 */
+  margin: 0 auto;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  overflow: hidden;
+}
+.box .bottle .empty {
+  position: absolute;
+  top: 220px;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  transition: all 0.5s;
+}
+.box .bottle .empty h4 {
+  font-size: 20px;
+  color: #144fc6;
+}
+.box .bottle .empty h6 {
+  font-size: 14px;
+  color: #144fc6;
+}
+.box .bottle .full {
+  position: absolute;
+  background-color: #6ab3f8;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+  transition: all 0.5s;
+}
+.box .bottle .full h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 36px;
+  transform: translate(-50%, -50%);
+}
+.box p {
+  color: white;
+  font-size: 16px;
+}
+.box .glasses {
+  margin: 10px auto;
+  width: 420px;
+  height: 310px;
+}
+.box .glasses .glass {
+  float: left;
+  width: 75px;
+  height: 120px;
+  border: 4px solid #144fc6;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  margin-left: 14px;
+  margin-right: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+  color: #3494e4;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.box .glasses .glass i {
+  font-style: normal;
+}
+.box .glasses .glass.active {
+  background-color: #6ab3f8;
+  color: white;
+}

@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: skyblue;
+}
+.box {
+  width: 500px;
+  margin: 300px auto;
+  /* background-color: bisque; */
+  text-align: center;
+}
+.box p {
+  text-align: center;
+}
+.box textarea {
+  width: 400px;
+  height: 180px;
+  margin: 0 auto;
+  margin-top: 30px;
+  outline: none;
+  padding-top: 3px;
+  padding-left: 3px;
+}
+.box .choice {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+  /* background-color: aquamarine; */
+}
+.box .choice span {
+  display: inline-block;
+  padding: 10px 25px;
+  background-color: orange;
+  border-radius: 25px;
+  margin-top: 15px;
+  color: white;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.box .choice span.active {
+  background-color: blue;
+}
